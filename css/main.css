@@ -1,10 +1,50 @@
+body, html {
+    height: 100%;
+  }
+
 .title{
     font-family: 'Rock Salt', cursive;
     padding: 3%;
+    color: #850606;
+    font-size: 300%;
 }
+
+.launchgame{
+    background-image: url("../img/fond4.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .intro{
     font-family: 'Tomorrow', sans-serif;
     font-size: 200%;
+    color: azure;
 }
 
+.speaker{
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 150%;
+    color: gold;
+}
+
+.button-start{
+    font-family: 'Tomorrow', sans-serif ;
+}
+
+.bedroom{
+    background-image: url("../img/chambre2.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-bedroom{
+    padding: 2% !important;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 200%;
+    color: black;
+}
