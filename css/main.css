@@ -48,3 +48,10 @@ body, html {
     font-size: 200%;
     color: black;
 }
+
+.text-item{
+    padding: 2% !important;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 200%;
+    color: rgb(234, 238, 10);
+}
