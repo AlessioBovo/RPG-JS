@@ -79,3 +79,72 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.pièce2porte{
+    background-image: url("../img/door.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pièce2couloir{
+    background-image: url("../img/couloir.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.télé{
+    background-image: url("../img/TV.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.scie{
+    background-image: url("../img/laboratoire.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+
+.question1{
+    background-image: url("../img/question1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+
+.twodoor{
+    background-image: url("../img/2door.jp2");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+
+.f2f{
+    background-image: url("../img/facetoface.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+
+.mortarme{
+    background-image: url("../img/mortarme.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
