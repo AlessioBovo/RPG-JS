@@ -26,7 +26,21 @@ function vie1(){
     let a = document.getElementById("bedroom2");
     a.innerHTML=" ";  
 
-    a.innerHTML="";
+    a.innerHTML="<div class='pièce2' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Tu arrives dans une nouvelle pièce, il fait de plus en plus froid</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Tu commences à paniquer, tu ne sens bientôt plus tes doigts...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Que faire ? </p></div></div><div class='row'> <div class='col-6 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie2();'>Passer les mains sous l'eau chaude du robinet</button> </div></div><div class='col-6'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vieversmort1();'>Chercher une porte de sortie</button> </div></div></div></div>";
+}
+
+function vie2(){
+    let a = document.getElementById("bedroom2");
+    a.innerHTML=" ";  
+
+    a.innerHTML="ffffff";
+}
+
+function vieversmort1(){
+    let a = document.getElementById("bedroom2");
+    a.innerHTML=" ";  
+
+    a.innerHTML="azzaa";
 }
 
 function mort1(){

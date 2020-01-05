@@ -71,3 +71,11 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.pièce2{
+    background-image: url("../img/piece2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
