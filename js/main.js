@@ -110,9 +110,22 @@ function vie13(){
     let a = document.getElementById("bedroom2");
     a.innerHTML=" ";  
 
-    a.innerHTML="";
+    a.innerHTML="<div class='twodoor' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Tu arrives à la salle suivant...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Tu es celui qui a été le plus loin, tu es le meilleur patient.. j'avais vu juste sur toi...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>J'ai quand même encore envie de jouer avec toi...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Je vais te faire une petite énigme très simple.. On va voir si l'Humain est encore logique de nos jours...</p></div></div><div class='row'> <div class='col-12 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie14();'>Continuer</button> </div></div></div></div>";
 }
 
+function vie14(){
+    let a = document.getElementById("bedroom2");
+    a.innerHTML=" ";  
+
+    a.innerHTML="<div class='classe' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Sur la route pour me rendre en ville, je croise deux femmes. <br>Chacune porte une caisse contenant 4 chatons et un chat.</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Combien de jambes se dirigent vers la ville ?</p></div></div><div class='row'> <div class='col-3 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='versmort5();'>6</button> </div></div><div class='col-3 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='versmort5();'>4</button> </div></div><div class='col-3 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie15();'>2</button> </div></div><div class='col-3 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='versmort5();'>0</button> </div></div></div></div>";
+}
+
+function vie15(){
+    let a = document.getElementById("bedroom2");
+    a.innerHTML=" ";  
+
+    a.innerHTML="";
+}
 
 function vieversmort1(){
     let a = document.getElementById("bedroom2");
@@ -147,6 +160,13 @@ function versmort4(){
     a.innerHTML=" ";  
 
     a.innerHTML=" <div class='mortarme' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>La personne en face de toi n'a pas hésité on dirait.</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Il te tire une balle en plein coeur.</p></div></div><div class='row'> <div class='col-6 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='mort1();'>Continuer</button> </div></div></div></div>";
+}
+
+function versmort5(){
+    let a = document.getElementById("bedroom2");
+    a.innerHTML=" ";  
+
+    a.innerHTML=" <div class='noyade' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Et non... Seulement 2, il n'y a que toi qui te rends en ville, les femmes que tu croises en sortent...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Tu n'as pas le temps de réagir que de l'eau envahi la pièce...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Tu meurs noyé...</p></div></div><div class='row'> <div class='col-3 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='mort1();'>Continuer</button> </div></div></div></div>";
 }
 
 function mort1(){

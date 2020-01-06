@@ -148,3 +148,21 @@ body, html {
     background-size: cover; 
      
 }
+
+.classe{
+    background-image: url("../img/classe.jp2");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+
+.noyade{
+    background-image: url("../img/noyade.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
