@@ -1,3 +1,7 @@
+*{
+    overflow: hidden;
+}
+
 body, html {
     height: 100%;
   }
@@ -22,6 +26,10 @@ body, html {
     font-family: 'Tomorrow', sans-serif;
     font-size: 200%;
     color: rgb(214, 226, 226);
+}
+
+.introbox{
+    padding: 40px;
 }
 
 .speaker{
@@ -166,3 +174,31 @@ body, html {
     background-size: cover; 
      
 }
+
+.hopital{
+    background-image: url("../img/hopital.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+
+.campagne{
+    background-image: url("../img/campagne.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+
+.fin{
+    background-color: black;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+

@@ -5,21 +5,21 @@ function changeHTML(){
     let a = document.getElementById("launcher");
     a.innerHTML=" ";  
 
-    a.innerHTML="<div class='bedroom' id='bedroom'><div class='row'><div class='col-12'><p class='text-center text-bedroom box'>Tu te réveilles, il fait sombre et humide....</p></div></div><div class='row'><div class='col-12'><p class='text-center text-bedroom'>Tu es seul(e). Tu te demandes bien ce que tu fais la hein ? </p></div><div class='row'><div class='col-12'><p class='text-center text-bedroom'>Tu entend soudainement quelqu'un à travers un haut parleur.</p></div></div><div class='row'><div class='col-lg-4 col-lg-offset-4 mx-auto'><span class='input-group-btn'></div></div></div><div class='row'><div class='col-12'><p class='text-center text-bedroom' id='sayname'></p></div></div><div class='text-center'><button id='singlebutton bedroom' name='singlebutton' class='btn btn-light button-start' onclick='changeHTML2();'>Commencer</button></div></div>";
+    a.innerHTML="<div class='bedroom' id='bedroom'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Tu te réveilles, il fait sombre et humide....</p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Tu es seul(e). Tu te demandes bien ce que tu fais là hein ? </p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Tu es seul(e). Tu te demandes bien ce que tu fais la hein ? </p></div></div><div class='row'> <div class='col-6 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='changeHTML2();'>Continuer</button> </div></div></div></div>";
 }
 
 function changeHTML2(){
     let a = document.getElementById("bedroom");
     a.innerHTML=" ";  
 
-    a.innerHTML="<div class='bedroom' id='bedroom1'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Bonjour Patient n°5, j'espère que la salle vous plait...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom'>Je vous ai préparé quelques petites épreuves, faites attention aux choix que vous faisait.</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom'>Si vous tenez à la vie, faites les bons choix.</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom'></p></div></div><div class='row'> <div class='col-12 mx-auto'> <p class='text-center text-bedroom' id='sayname'>Les 4 patients avant vous sont.... Comment dire.. Huuuum MORTES <br> Bonne Chance.</p></div><div class='container text-center'><button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='changeHTML3();'>Commencer</button></div></div></div>";
+    a.innerHTML="<div class='bedroom' id='bedroom1'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Bonjour Patient n°5, j'espère que la salle vous plait...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom'>Je vous ai préparé quelques petites épreuves, faites attention aux choix que vous faisait.</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom'>Si vous tenez à la vie, faites les bons choix.</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom'></p></div></div><div class='row'> <div class='col-12 mx-auto'> <p class='text-center text-bedroom' id='sayname'>Les 4 patients avant vous sont.... Comment dire.. Huuuum MORTES <br> Bonne Chance.</p></div><div class='container text-center'><button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='changeHTML3();'>Continuer</button></div></div></div>";
 }
 
 function changeHTML3(){
     let a = document.getElementById("bedroom1");
     a.innerHTML=" ";  
 
-    a.innerHTML="<div class='bedroom' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Tu regardes ta main, tu es attaché avec des menottes, et au dessus de toi, un seau rempli d'acide, pret a tomber, tu peux prendre avec ton autre main une hache, quel est ton choix ? </p></div></div><div class='row'> <div class='col-6 mx-auto d-block'> <div class='container text-center'><button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie1();'>Couper les menottes</button></div></div><div class='col-6'> <div class='container text-center'><button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='mort1();'>Rester sous le seau d'acide</button></div></div></div></div>";
+    a.innerHTML="<div class='bedroom' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Tu regardes ta main, tu es attaché avec des menottes, et au dessus de toi, un seau rempli d'acide, prêt a tomber, tu peux prendre avec ton autre main une hache, quel est ton choix ? </p></div></div><div class='row'> <div class='col-6 mx-auto d-block'> <div class='container text-center'><button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie1();'>Couper les menottes</button></div></div><div class='col-6'> <div class='container text-center'><button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='mort1();'>Rester sous le seau d'acide</button></div></div></div></div>";
 }
 
 function vie1(){
@@ -75,7 +75,7 @@ function vie8(){
     let a = document.getElementById("bedroom2");
     a.innerHTML=" ";  
 
-    a.innerHTML="<div class='twodoor' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Encore une nouvelle salle... oh.. quelq'un est avec toi, sûrement la personne que tu as épargné. Vous êtes séparés par un grillage.</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Il y a 1 plaque devant chacun de vous, parfait, vous vous mettez chacun sur une, et les 2 portes s'ouvrent</p></div></div><div class='row'> <div class='col-12 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie10();'>Continuer</button> </div></div></div></div>";
+    a.innerHTML="<div class='twodoor' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Encore une nouvelle salle... oh.. quelqu'un est avec toi, sûrement la personne que tu as épargné. Vous êtes séparés par un grillage.</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Il y a 1 plaque devant chacun de vous, parfait, vous vous mettez chacun sur une, et les 2 portes s'ouvrent.</p></div></div><div class='row'> <div class='col-12 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie10();'>Continuer</button> </div></div></div></div>";
 }
 
 function vie9(){
@@ -110,7 +110,7 @@ function vie13(){
     let a = document.getElementById("bedroom2");
     a.innerHTML=" ";  
 
-    a.innerHTML="<div class='twodoor' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Tu arrives à la salle suivant...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Tu es celui qui a été le plus loin, tu es le meilleur patient.. j'avais vu juste sur toi...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>J'ai quand même encore envie de jouer avec toi...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Je vais te faire une petite énigme très simple.. On va voir si l'Humain est encore logique de nos jours...</p></div></div><div class='row'> <div class='col-12 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie14();'>Continuer</button> </div></div></div></div>";
+    a.innerHTML="<div class='twodoor' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Tu arrives à la salle suivante...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Tu es celui qui a été le plus loin, tu es le meilleur patient.. j'avais vu juste sur toi...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>J'ai quand même encore envie de jouer avec toi...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Je vais te faire une petite énigme très simple.. On va voir si l'Humain est encore logique de nos jours...</p></div></div><div class='row'> <div class='col-12 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie14();'>Continuer</button> </div></div></div></div>";
 }
 
 function vie14(){
@@ -124,7 +124,42 @@ function vie15(){
     let a = document.getElementById("bedroom2");
     a.innerHTML=" ";  
 
-    a.innerHTML="";
+    a.innerHTML="<div class='hopital' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Oh une infirmerie. Il y a de quoi te soigner tes plais : du désinfectant, des compresses, des bandages, et des médicaments.</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Désires-tu te soigner avant de franchir la porte ?</p></div></div><div class='row'> <div class='col-3 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='choixoui();'>Oui</button> </div></div><div class='col-3 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='choixnon();'>Non</button> </div></div></div></div>";
+}
+
+function vie16(){
+    let a = document.getElementById("bedroom2");
+    a.innerHTML=" ";
+
+    a.innerHTML="<div class='hopital' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>D'accord, comme tu le voudras...</p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Tu ouvres la porte et soudain...</p></div></div><div class='row'> <div class='col-6 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie17();'>Continuer</button> </div></div></div></div>";
+}
+
+function vie17(){
+    let a = document.getElementById("bedroom2");
+    a.innerHTML=" ";
+
+    a.innerHTML=" <div class='campagne' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Tu te retrouves à l'extérieur</p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Tu as survécu au...</p></div></div><div id='launcher' class='container-fluid'> <h1 class='text-center title' style='font-size: 500%;'>Death Game</h1> </div><div class='row'> <div class='col-6 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='fin();'>Continuer</button> </div></div></div></div>";
+}
+
+function fin(){
+    let a = document.getElementById("bedroom2");
+    a.innerHTML=" ";
+
+    a.innerHTML=" <div class='fin' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Merci d'avoir joué à ce jeu !</p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Jeu écrit et programmé par :</p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Alessio BOVOLENTA</p></div></div><div id='launcher' class='container-fluid'> <h1 class='text-center title' style='font-size: 500%;'>Death Game</h1> </div></div>";
+}
+
+function choixoui(){
+    let a = document.getElementById("bedroom2");
+    a.innerHTML=" ";  
+
+    a.innerHTML=" <div class='hopital' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Es-tu sûr ?</p></div></div><div class='row'> <div class='col-6 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='versmort6();'>Oui</button> </div></div><div class='col-6 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie15();'>Non</button> </div></div></div></div>";
+}
+
+function choixnon(){
+    let a = document.getElementById("bedroom2");
+    a.innerHTML=" ";  
+
+    a.innerHTML=" <div class='hopital' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Es-tu sûr ?</p></div></div><div class='row'> <div class='col-6 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie16();'>Oui</button> </div></div><div class='col-6 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='vie15();'>Non</button> </div></div></div></div>";
 }
 
 function vieversmort1(){
@@ -169,20 +204,16 @@ function versmort5(){
     a.innerHTML=" <div class='noyade' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Et non... Seulement 2, il n'y a que toi qui te rends en ville, les femmes que tu croises en sortent...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Tu n'as pas le temps de réagir que de l'eau envahi la pièce...</p></div></div><div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'>Tu meurs noyé...</p></div></div><div class='row'> <div class='col-3 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='mort1();'>Continuer</button> </div></div></div></div>";
 }
 
+function versmort6(){
+    let a = document.getElementById("bedroom2");
+    a.innerHTML=" ";  
+
+    a.innerHTML=" <div class='hopital' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-bedroom box'></p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Le désinfectant que tu mets sur tes plais était empoisonné...</p></div></div><div class='row'> <div class='col-12'>. <p class='text-center text-bedroom box'>Tu meurs dans d'affreuse souffrance.</p></div></div><div class='row'> <div class='col-6 mx-auto d-block'> <div class='container text-center'> <button id='singlebutton' name='singlebutton' class='btn btn-light button-start' onclick='mort1();'>Continuer</button> </div></div></div></div>";
+}
+
 function mort1(){
     let a = document.getElementById("bedroom2");
     a.innerHTML=" ";  
 
     a.innerHTML="<div class='dead'> <div class='Dead' id='bedroom2'> <div class='row'> <div class='col-12'> <p class='text-center text-dead box'>TU ES MORT</p></div></div></div></div>";
 }
-
-function setname(){
-    name = document.getElementById("myname").value;
-    console.log(name);
-
-}
-
-// function saidname() {
-//     sayname.innerHTML ='salut' + name + '!';
-//     console.log(sayname);
-// }
